@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    int i=0;
+    int sum=0;
+while (i<=10){
+printf("%d\n",i);
+sum+=i;
+  i++;
+}
+printf("The total sum is:%d\n",sum);
+
+ return 0;
+}
